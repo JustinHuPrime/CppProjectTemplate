@@ -84,7 +84,7 @@ WARNINGS := -pedantic -pedantic-errors -Wall -Wextra -Wdouble-promotion\
 -Woverloaded-virtual -Wsign-promo -Wunused -Wdisabled-optimization
 
 OPTIONS := -std=c++20 -D_POSIX_C_SOURCE=202207L -I$(SRCDIR)\
--Ilibs/stb -Ilibs/json/single_include #$(shell pkg-config --cflags )
+#$(shell pkg-config --cflags )
 TOPTIONS := -I$(TSRCDIR) -Ilibs/Catch2/src -Ilibs/Catch2/Build/generated-includes
 LIBS := #$(shell pkg-config --libs )
 TLIBS := libs/Catch2/Build/src/libCatch2Main.a libs/Catch2/Build/src/libCatch2.a
