@@ -21,7 +21,6 @@
 # command options
 CXX := g++
 RM := rm -rf
-MV := mv
 CP := cp
 MKDIR := mkdir -p
 DOXYGEN := doxygen
